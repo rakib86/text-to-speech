@@ -1,0 +1,95 @@
+/* Set black background */
+body {
+  background-image: url(demo2.png);
+  font-family: "Roboto", sans-serif;
+    background-size: cover;
+}
+
+/* Center the form */
+form {
+  margin: 0 auto;
+  margin-top: 120px;
+  max-width: 700px;
+  background-color: #B9E9FC;
+  padding: 30px;
+  height: 70vh;
+  border-radius: 25px;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style the textarea */
+.form-control {
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 20px;
+    font-family: "Roboto", sans-serif;
+  width: 93%;
+  margin-bottom: 30px;
+}
+
+/* Style the range slider */
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 5px;
+  width: 100%;
+  border-radius: 5px;
+  background: #777;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+/* Style the buttons */
+.btn {
+    background-color: #f8d82e;
+    color: #000000;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    padding: 20px 40px;
+    border-radius: 20px;
+    margin-right: 50px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+/* Style the select */
+select {
+  border-radius: 15px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding: 20px;
+
+}
