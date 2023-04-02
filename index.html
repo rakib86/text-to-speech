@@ -15,11 +15,19 @@
   </head>
   
   <body>
-    
-            <form name="ttsform" autocomplete="off">
+    <div class="container">
+      <div class="headinfo">
+        <h1>
+          Text to Speech
+        </h1>
+        <p>
+          Convert your text into speech
+        </p>
+      </div>
+            <form name="ttsform" class="formh" autocomplete="off">
               
                         <div class="col-12 form-group">
-                            <input type="text" class="form-control" id="area">
+                            <input type="text" class="text-in" id="area">
                           
                         </div>
                      
@@ -63,14 +71,14 @@
                                   </button>
                                 </div>
                               </div>
-                            
+                          
                         </div>
                         <div style="display: flex;">
-                          <span style="padding: 10px; border-radius: 20px; background-color: rgb(0, 0, 0); color: white; cursor: pointer; margin-right: 5px; margin-bottom: 50px;"
+                          <span style="padding: 10px; border-radius: 20px; background-color: rgb(255, 208, 0); color: rgb(0, 0, 0); cursor: pointer; margin-right: 5px; margin-bottom: 50px;"
                             onclick="document.getElementById('toggle-text').textContent = 'Fluent';">
                             Fluent
                           </span>
-                          <span style="padding: 10px; border-radius: 20px; background-color: rgb(0, 0, 0); color: white; cursor: pointer; margin-bottom: 50px;"
+                          <span style="padding: 10px; border-radius: 20px; background-color: rgb(255, 208, 0); color: rgb(0, 0, 0); cursor: pointer; margin-bottom: 50px;"
                             onclick="document.getElementById('toggle-text').textContent = 'Advanced';">
                             Advanced
                           </span>
@@ -87,7 +95,7 @@
                      
                  
             </form>
-         
+    </div>
     <script src="https://text-speech.net/js/jquery.min.js">
     </script>
     <script async="" src="https://text-speech.net/js/bootstrap.bundle.min.js">
